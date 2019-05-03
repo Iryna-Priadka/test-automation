@@ -1,0 +1,176 @@
+{
+  "uid" : "13568908bec4c63d",
+  "name" : "Max Characters + 1",
+  "fullName" : "Login Email.Max Characters + 1",
+  "historyId" : "6185f1b05383e6bf63cf4cbaf18a1451",
+  "time" : {
+    "start" : 1556245749454,
+    "stop" : 1556245749597,
+    "duration" : 143
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1556245749455,
+        "stop" : 1556245749463,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c667d5af6045303",
+        "name" : "Request",
+        "source" : "4c667d5af6045303.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "55c3898d78c228b8",
+        "name" : "Response",
+        "source" : "55c3898d78c228b8.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0.05717017475125408-1/value",
+      "time" : {
+        "start" : 1556245749471,
+        "stop" : 1556245749592,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17bd33b7efe58901",
+        "name" : "Request",
+        "source" : "17bd33b7efe58901.json",
+        "type" : "application/json",
+        "size" : 433
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/0.05717017475125408-1/attribute/value",
+      "time" : {
+        "start" : 1556245749592,
+        "stop" : 1556245749597,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5e723747277435",
+        "name" : "Response",
+        "source" : "d5e723747277435.json",
+        "type" : "application/json",
+        "size" : 47
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login Email"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Email"
+  }, {
+    "name" : "testMethod",
+    "value" : "Max Characters + 1"
+  }, {
+    "name" : "package",
+    "value" : "Login Email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "165c0eaac0a23a3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556041478547,
+        "stop" : 1556041478729,
+        "duration" : 182
+      }
+    }, {
+      "uid" : "609354c0a3ea504c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556041413613,
+        "stop" : 1556041413833,
+        "duration" : 220
+      }
+    }, {
+      "uid" : "c27d2af99bc0551f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556040901123,
+        "stop" : 1556040901270,
+        "duration" : 147
+      }
+    }, {
+      "uid" : "13052085dbef460b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555882899323,
+        "stop" : 1555882899457,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "978e2521317afcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555882704999,
+        "stop" : 1555882705124,
+        "duration" : 125
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13568908bec4c63d.json",
+  "parameterValues" : [ "chrome" ]
+}

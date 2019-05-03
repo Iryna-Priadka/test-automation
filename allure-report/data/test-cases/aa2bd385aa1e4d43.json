@@ -1,0 +1,113 @@
+{
+  "uid" : "aa2bd385aa1e4d43",
+  "name" : "Footer",
+  "fullName" : "Client Elements exist.Footer",
+  "historyId" : "b0cf9bfaf08948ec8f3eaa4b0b8f9c40",
+  "time" : {
+    "start" : 1556041410055,
+    "stop" : 1556041410081,
+    "duration" : 26
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1556041410055,
+        "stop" : 1556041410066,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a414ff664584849e",
+        "name" : "Request",
+        "source" : "a414ff664584849e.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "554ce22f4aabc446",
+        "name" : "Response",
+        "source" : "554ce22f4aabc446.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/0.7788138723487332-3/displayed",
+      "time" : {
+        "start" : 1556041410068,
+        "stop" : 1556041410081,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a06d03fa2ca2808",
+        "name" : "Response",
+        "source" : "3a06d03fa2ca2808.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Client Elements exist"
+  }, {
+    "name" : "testClass",
+    "value" : "Client Elements exist"
+  }, {
+    "name" : "testMethod",
+    "value" : "Footer"
+  }, {
+    "name" : "package",
+    "value" : "Client Elements exist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa2bd385aa1e4d43.json",
+  "parameterValues" : [ "chrome" ]
+}

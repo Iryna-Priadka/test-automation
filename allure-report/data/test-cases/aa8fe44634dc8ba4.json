@@ -1,0 +1,155 @@
+{
+  "uid" : "aa8fe44634dc8ba4",
+  "name" : "Favicon",
+  "fullName" : "Client Page Level.Favicon",
+  "historyId" : "71fe19a769e69bae9ffb975345127eda",
+  "time" : {
+    "start" : 1556247692723,
+    "stop" : 1556247692894,
+    "duration" : 171
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1556247692723,
+        "stop" : 1556247692815,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b99fe073a2460434",
+        "name" : "Request",
+        "source" : "b99fe073a2460434.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1556247692820,
+        "stop" : 1556247692838,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12aa931ad819a3fb",
+        "name" : "Request",
+        "source" : "12aa931ad819a3fb.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "7bce7e6cb681b8dd",
+        "name" : "Response",
+        "source" : "7bce7e6cb681b8dd.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/0.7893723566546667-1/css/width",
+      "time" : {
+        "start" : 1556247692871,
+        "stop" : 1556247692882,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d432054af90c4add",
+        "name" : "Response",
+        "source" : "d432054af90c4add.json",
+        "type" : "application/json",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/0.7893723566546667-1/css/height",
+      "time" : {
+        "start" : 1556247692883,
+        "stop" : 1556247692893,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a730d92f733b238",
+        "name" : "Response",
+        "source" : "a730d92f733b238.json",
+        "type" : "application/json",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Client Page Level"
+  }, {
+    "name" : "testClass",
+    "value" : "Client Page Level"
+  }, {
+    "name" : "testMethod",
+    "value" : "Favicon"
+  }, {
+    "name" : "package",
+    "value" : "Client Page Level"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa8fe44634dc8ba4.json",
+  "parameterValues" : [ "chrome" ]
+}

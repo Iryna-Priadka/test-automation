@@ -1,0 +1,107 @@
+{
+  "uid" : "62ea7753dbc48acf",
+  "name" : "Get title",
+  "fullName" : "Client Page Level.Get title",
+  "historyId" : "3ad68103d90fe31199927a6a9354e305",
+  "time" : {
+    "start" : 1556247809084,
+    "stop" : 1556247809536,
+    "duration" : 452
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1556247809094,
+        "stop" : 1556247809525,
+        "duration" : 431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23ffac220f3d1add",
+        "name" : "Request",
+        "source" : "23ffac220f3d1add.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1556247809525,
+        "stop" : 1556247809535,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "156591a5ae14d553",
+        "name" : "Response",
+        "source" : "156591a5ae14d553.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Client Page Level"
+  }, {
+    "name" : "testClass",
+    "value" : "Client Page Level"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get title"
+  }, {
+    "name" : "package",
+    "value" : "Client Page Level"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62ea7753dbc48acf.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,107 @@
+{
+  "uid" : "1f294989769f925c",
+  "name" : "get title",
+  "fullName" : "Page opening.get title",
+  "historyId" : "98e451ced1a002d53288d9d225d0353d",
+  "time" : {
+    "start" : 1555649402637,
+    "stop" : 1555649413859,
+    "duration" : 11222
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1555649402642,
+        "stop" : 1555649408843,
+        "duration" : 6201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f41ed19238e09b",
+        "name" : "Request",
+        "source" : "7f41ed19238e09b.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1555649408844,
+        "stop" : 1555649408852,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39842972f1c809e0",
+        "name" : "Response",
+        "source" : "39842972f1c809e0.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Page opening"
+  }, {
+    "name" : "testClass",
+    "value" : "Page opening"
+  }, {
+    "name" : "testMethod",
+    "value" : "get title"
+  }, {
+    "name" : "package",
+    "value" : "Page opening"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f294989769f925c.json",
+  "parameterValues" : [ "chrome" ]
+}
